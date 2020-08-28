@@ -6,9 +6,8 @@ name: node.js CI
 on:
 
   schedule:
-    # 매일 오후 2시에 블로그 글 발송
-    #- cron: "0 5 * * *"
-    - cron: "*/1 * * * *" 
+    # 매일 오후 1시에 블로그 글 발송
+    - cron: "0 4 * * *"
 
 jobs:
   build:
